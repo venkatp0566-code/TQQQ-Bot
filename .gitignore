@@ -1,0 +1,34 @@
+# ── SECRETS — NEVER COMMIT THESE ─────────────────────────────────────────────
+config.py          # contains your API keys and Telegram token
+
+# ── RUNTIME DATA ──────────────────────────────────────────────────────────────
+*.db               # SQLite database (your trade history)
+*.log              # log files
+*.db-journal
+*.db-shm
+*.db-wal
+
+# ── PYTHON ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── EDITORS ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
