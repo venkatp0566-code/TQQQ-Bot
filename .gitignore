@@ -32,3 +32,5 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+repo_stats_history.csv
