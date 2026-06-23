@@ -1,0 +1,12 @@
+config.py
+*.db
+*.log
+__pycache__/
+venv/
+*.pyc
+*.pem
+*.ppk
+data-bkp.py
+orders-bkp.py
+config-bkp.py
+risk-bkp.py
